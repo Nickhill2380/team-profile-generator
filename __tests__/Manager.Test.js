@@ -1,4 +1,3 @@
-const { TestScheduler } = require("jest");
 const Manager = require("../lib/Manager.js");
 
 test("creates the Manager object", () => {

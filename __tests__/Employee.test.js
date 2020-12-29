@@ -7,3 +7,9 @@ test('creates a employee object', () => {
     expect(employee.id).toEqual(expect.any(Number));
     expect(employee.email).toEqual(expect.stringContaining('@'));
 });
+
+test("gets employee's role", () => {
+    const employee = new Employee('Andy', 1 ,'email@website.com');
+
+    expect(employee.getRole()).toBe('Employee');
+});

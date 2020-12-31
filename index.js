@@ -1,4 +1,4 @@
-const Employee = require("./lib/Employee");
+const Questionnaire = require("./lib/Questionnaire");
 
-new Employee().getName();
+new Questionnaire().teamBuilder();
 

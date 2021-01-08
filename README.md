@@ -34,5 +34,5 @@ This project is covered by the None license. Found at the link below:
 
 
 ## Tests
-The application uses jest for the testing intall jest and run the tests npm test
+The application uses jest for the testing intall jest and run the tests by entering npm test in the terminal command line
 

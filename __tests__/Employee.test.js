@@ -13,3 +13,21 @@ test("gets employee's role", () => {
 
     expect(employee.getRole()).toBe('Employee');
 });
+
+test("returns name", () => {
+    const employee = new Employee('Andy', 1 ,'email@website.com');
+
+    expect(employee.getName()).toEqual(expect.any(String));
+});
+
+test("returns id", () => {
+    const employee = new Employee('Andy', 1 ,'email@website.com');
+
+    expect(employee.getId()).toEqual(expect.any(String));
+});
+
+test("returns email", () => {
+    const employee = new Employee('Andy', 1 ,'email@website.com');
+
+    expect(employee.getEmail()).toEqual(expect.stringContaining('@'));
+});
